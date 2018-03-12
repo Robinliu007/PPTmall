@@ -8,6 +8,7 @@
 
 import Foundation
 
+// 自定义日志输出
 func printX(file: String = #file,
             method: String = #function,
             line: Int = #line) {
@@ -16,6 +17,7 @@ func printX(file: String = #file,
     #endif
 }
 
+// 自定义日志输出
 func printX<T>(_ message: T,
                file: String = #file,
                method: String = #function,
