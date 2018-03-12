@@ -4,6 +4,6 @@ use_frameworks!
 
 target 'PPTmall' do
 
-  pod 'Alamofire'
+  pod 'Alamofire' # 网络
 
 end
