@@ -12,13 +12,16 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         printX()
-        printX("Hello world")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        printX()
+    }
+    
+    deinit {
+        printX()
     }
     
 }

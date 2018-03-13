@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74769A252056520800F2A1CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A242056520800F2A1CB /* BaseViewController.swift */; };
 		74769A282056619A00F2A1CB /* PPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A272056619A00F2A1CB /* PPConfig.swift */; };
+		74769A2B205679FA00F2A1CB /* PPConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A2A205679FA00F2A1CB /* PPConsts.swift */; };
+		74769A6D2057D34200F2A1CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A612057D34200F2A1CB /* BaseViewController.swift */; };
+		74769A6E2057D34200F2A1CB /* Optional+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A642057D34200F2A1CB /* Optional+Ext.swift */; };
+		74769A742057D34200F2A1CB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A6C2057D34200F2A1CB /* Utils.swift */; };
+		74769A7B2057D8EE00F2A1CB /* PPButton+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A762057D8EE00F2A1CB /* PPButton+IB.swift */; };
+		74769A7C2057D8EE00F2A1CB /* PPLabel+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A772057D8EE00F2A1CB /* PPLabel+IB.swift */; };
+		74769A7D2057D8EE00F2A1CB /* PPTextField+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A782057D8EE00F2A1CB /* PPTextField+IB.swift */; };
+		74769A7E2057D8EE00F2A1CB /* PPTextView+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A792057D8EE00F2A1CB /* PPTextView+IB.swift */; };
+		74769A7F2057D8EE00F2A1CB /* PPView+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A7A2057D8EE00F2A1CB /* PPView+IB.swift */; };
+		74769A822057D92400F2A1CB /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74769A812057D92400F2A1CB /* UIView+Ext.swift */; };
 		74B63305205623A400C71EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B63304205623A400C71EFA /* AppDelegate.swift */; };
 		74B63307205623A400C71EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B63306205623A400C71EFA /* ViewController.swift */; };
 		74B6330A205623A400C71EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B63308205623A400C71EFA /* Main.storyboard */; };
@@ -19,9 +28,18 @@
 
 /* Begin PBXFileReference section */
 		2E454F2E2AE48F7B01595B0E /* Pods-PPTmall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPTmall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PPTmall/Pods-PPTmall.debug.xcconfig"; sourceTree = "<group>"; };
-		74769A242056520800F2A1CB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		74769A262056607100F2A1CB /* PPTmall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPTmall-Prefix.pch"; sourceTree = "<group>"; };
 		74769A272056619A00F2A1CB /* PPConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPConfig.swift; sourceTree = "<group>"; };
+		74769A2A205679FA00F2A1CB /* PPConsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPConsts.swift; sourceTree = "<group>"; };
+		74769A612057D34200F2A1CB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		74769A642057D34200F2A1CB /* Optional+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Ext.swift"; sourceTree = "<group>"; };
+		74769A6C2057D34200F2A1CB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		74769A762057D8EE00F2A1CB /* PPButton+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PPButton+IB.swift"; sourceTree = "<group>"; };
+		74769A772057D8EE00F2A1CB /* PPLabel+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PPLabel+IB.swift"; sourceTree = "<group>"; };
+		74769A782057D8EE00F2A1CB /* PPTextField+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PPTextField+IB.swift"; sourceTree = "<group>"; };
+		74769A792057D8EE00F2A1CB /* PPTextView+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PPTextView+IB.swift"; sourceTree = "<group>"; };
+		74769A7A2057D8EE00F2A1CB /* PPView+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PPView+IB.swift"; sourceTree = "<group>"; };
+		74769A812057D92400F2A1CB /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		74B63301205623A400C71EFA /* PPTmall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPTmall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B63304205623A400C71EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74B63306205623A400C71EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,36 +83,20 @@
 		74769A1C2056516900F2A1CB /* App */ = {
 			isa = PBXGroup;
 			children = (
-				74769A1D2056516900F2A1CB /* Common */,
+				74769A5F2057D34200F2A1CB /* Kits */,
 				74769A1F2056516900F2A1CB /* Config */,
 				74769A202056516900F2A1CB /* Helper */,
 				74769A212056516900F2A1CB /* Libs */,
 				74769A222056516900F2A1CB /* Modules */,
-				74769A232056516900F2A1CB /* Utils */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		74769A1D2056516900F2A1CB /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				74769A1E2056516900F2A1CB /* Base */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		74769A1E2056516900F2A1CB /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				74769A242056520800F2A1CB /* BaseViewController.swift */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		74769A1F2056516900F2A1CB /* Config */ = {
 			isa = PBXGroup;
 			children = (
 				74769A272056619A00F2A1CB /* PPConfig.swift */,
+				74769A2A205679FA00F2A1CB /* PPConsts.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -120,11 +122,68 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		74769A232056516900F2A1CB /* Utils */ = {
+		74769A5F2057D34200F2A1CB /* Kits */ = {
 			isa = PBXGroup;
 			children = (
+				74769A602057D34200F2A1CB /* Base */,
+				74769A622057D34200F2A1CB /* Extension */,
+				74769A6B2057D34200F2A1CB /* Utils */,
+			);
+			path = Kits;
+			sourceTree = "<group>";
+		};
+		74769A602057D34200F2A1CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74769A612057D34200F2A1CB /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74769A622057D34200F2A1CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				74769A802057D91200F2A1CB /* UIView */,
+				74769A752057D8EE00F2A1CB /* PPView */,
+				74769A632057D34200F2A1CB /* Optional */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		74769A632057D34200F2A1CB /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				74769A642057D34200F2A1CB /* Optional+Ext.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		74769A6B2057D34200F2A1CB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74769A6C2057D34200F2A1CB /* Utils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		74769A752057D8EE00F2A1CB /* PPView */ = {
+			isa = PBXGroup;
+			children = (
+				74769A762057D8EE00F2A1CB /* PPButton+IB.swift */,
+				74769A772057D8EE00F2A1CB /* PPLabel+IB.swift */,
+				74769A782057D8EE00F2A1CB /* PPTextField+IB.swift */,
+				74769A792057D8EE00F2A1CB /* PPTextView+IB.swift */,
+				74769A7A2057D8EE00F2A1CB /* PPView+IB.swift */,
+			);
+			path = PPView;
+			sourceTree = "<group>";
+		};
+		74769A802057D91200F2A1CB /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				74769A812057D92400F2A1CB /* UIView+Ext.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		74B632F8205623A400C71EFA = {
@@ -257,10 +316,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PPTmall/Pods-PPTmall-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -289,10 +350,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74769A6D2057D34200F2A1CB /* BaseViewController.swift in Sources */,
+				74769A7C2057D8EE00F2A1CB /* PPLabel+IB.swift in Sources */,
+				74769A7D2057D8EE00F2A1CB /* PPTextField+IB.swift in Sources */,
+				74769A7F2057D8EE00F2A1CB /* PPView+IB.swift in Sources */,
+				74769A7E2057D8EE00F2A1CB /* PPTextView+IB.swift in Sources */,
 				74B63307205623A400C71EFA /* ViewController.swift in Sources */,
 				74B63305205623A400C71EFA /* AppDelegate.swift in Sources */,
-				74769A252056520800F2A1CB /* BaseViewController.swift in Sources */,
+				74769A2B205679FA00F2A1CB /* PPConsts.swift in Sources */,
 				74769A282056619A00F2A1CB /* PPConfig.swift in Sources */,
+				74769A822057D92400F2A1CB /* UIView+Ext.swift in Sources */,
+				74769A6E2057D34200F2A1CB /* Optional+Ext.swift in Sources */,
+				74769A7B2057D8EE00F2A1CB /* PPButton+IB.swift in Sources */,
+				74769A742057D34200F2A1CB /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
