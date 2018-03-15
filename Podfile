@@ -6,5 +6,6 @@ target 'PPTmall' do
 
   pod 'Alamofire' # 网络
   pod 'SnapKit', '~> 4.0.0' # 布局
+  pod 'ESTabBarController-swift' , :git => 'https://github.com/eggswift/ESTabBarController.git'
 
 end

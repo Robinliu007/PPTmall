@@ -1,15 +1,27 @@
 PODS:
   - Alamofire (4.5.1)
+  - ESTabBarController-swift (2.6.1)
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
+  - ESTabBarController-swift (from `https://github.com/eggswift/ESTabBarController.git`)
   - SnapKit (~> 4.0.0)
+
+EXTERNAL SOURCES:
+  ESTabBarController-swift:
+    :git: https://github.com/eggswift/ESTabBarController.git
+
+CHECKOUT OPTIONS:
+  ESTabBarController-swift:
+    :commit: 0e1caec0d539b9c1e03baede556b55ca63473846
+    :git: https://github.com/eggswift/ESTabBarController.git
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  ESTabBarController-swift: 1e629e60bc6a87c1ea92a5309489b9f8dde15fa2
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 2b827ea111eb0da3833a1336eb730ed8a5f69879
+PODFILE CHECKSUM: 4de7a79a0577e515cfa3cf80eca2f16b2ec8e13a
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0
