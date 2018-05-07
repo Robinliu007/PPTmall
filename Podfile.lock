@@ -1,11 +1,15 @@
 PODS:
   - Alamofire (4.5.1)
+  - CryptoSwift (0.8.3)
   - ESTabBarController-swift (2.6.1)
+  - ObjectMapper (3.1.0)
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
+  - CryptoSwift
   - ESTabBarController-swift (from `https://github.com/eggswift/ESTabBarController.git`)
+  - ObjectMapper (~> 3.1)
   - SnapKit (~> 4.0.0)
 
 EXTERNAL SOURCES:
@@ -19,9 +23,11 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CryptoSwift: 033efc3523865d19cc6ab6612fa17a62613b5dfa
   ESTabBarController-swift: 1e629e60bc6a87c1ea92a5309489b9f8dde15fa2
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 4de7a79a0577e515cfa3cf80eca2f16b2ec8e13a
+PODFILE CHECKSUM: bb5dfa096d04fff606d54ec642c9f8c8dd3693d5
 
 COCOAPODS: 1.4.0

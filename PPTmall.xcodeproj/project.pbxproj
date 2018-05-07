@@ -24,6 +24,17 @@
 		74B6330A205623A400C71EFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B63308205623A400C71EFA /* Main.storyboard */; };
 		74B6330C205623A400C71EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B6330B205623A400C71EFA /* Assets.xcassets */; };
 		74B6330F205623A400C71EFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B6330D205623A400C71EFA /* LaunchScreen.storyboard */; };
+		74E37A6920A000D3000F6749 /* APINetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A5C20A000D3000F6749 /* APINetworkConfig.swift */; };
+		74E37A6A20A000D3000F6749 /* APINetwork+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A5D20A000D3000F6749 /* APINetwork+Alamofire.swift */; };
+		74E37A6B20A000D3000F6749 /* APINetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A5E20A000D3000F6749 /* APINetworkAgent.swift */; };
+		74E37A6C20A000D3000F6749 /* APINetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A5F20A000D3000F6749 /* APINetworkRequest.swift */; };
+		74E37A6D20A000D3000F6749 /* APINetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6020A000D3000F6749 /* APINetworkUtils.swift */; };
+		74E37A6E20A000D3000F6749 /* APINetworkBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6120A000D3000F6749 /* APINetworkBaseRequest.swift */; };
+		74E37A6F20A000D3000F6749 /* APILoginVerifyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6320A000D3000F6749 /* APILoginVerifyCode.swift */; };
+		74E37A7020A000D3000F6749 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6420A000D3000F6749 /* TestModel.swift */; };
+		74E37A7120A000D3000F6749 /* APITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6520A000D3000F6749 /* APITest.swift */; };
+		74E37A7220A000D3000F6749 /* APITestPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6620A000D3000F6749 /* APITestPost.swift */; };
+		74E37A7320A000D3000F6749 /* KEYConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E37A6820A000D3000F6749 /* KEYConsts.swift */; };
 		CEFDD08FED0BB147755F8A04 /* Pods_PPTmall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B5D58D2ACA8EBB17D4C046 /* Pods_PPTmall.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +60,17 @@
 		74B6330B205623A400C71EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B6330E205623A400C71EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B63310205623A400C71EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E37A5C20A000D3000F6749 /* APINetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINetworkConfig.swift; sourceTree = "<group>"; };
+		74E37A5D20A000D3000F6749 /* APINetwork+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "APINetwork+Alamofire.swift"; sourceTree = "<group>"; };
+		74E37A5E20A000D3000F6749 /* APINetworkAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINetworkAgent.swift; sourceTree = "<group>"; };
+		74E37A5F20A000D3000F6749 /* APINetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINetworkRequest.swift; sourceTree = "<group>"; };
+		74E37A6020A000D3000F6749 /* APINetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINetworkUtils.swift; sourceTree = "<group>"; };
+		74E37A6120A000D3000F6749 /* APINetworkBaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APINetworkBaseRequest.swift; sourceTree = "<group>"; };
+		74E37A6320A000D3000F6749 /* APILoginVerifyCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILoginVerifyCode.swift; sourceTree = "<group>"; };
+		74E37A6420A000D3000F6749 /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		74E37A6520A000D3000F6749 /* APITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
+		74E37A6620A000D3000F6749 /* APITestPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITestPost.swift; sourceTree = "<group>"; };
+		74E37A6820A000D3000F6749 /* KEYConsts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KEYConsts.swift; sourceTree = "<group>"; };
 		B43CFF653584CACD38DC6D35 /* Pods-PPTmall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPTmall.release.xcconfig"; path = "Pods/Target Support Files/Pods-PPTmall/Pods-PPTmall.release.xcconfig"; sourceTree = "<group>"; };
 		C1B5D58D2ACA8EBB17D4C046 /* Pods_PPTmall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPTmall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +107,7 @@
 		74769A1C2056516900F2A1CB /* App */ = {
 			isa = PBXGroup;
 			children = (
+				74E37A5A20A000D3000F6749 /* APINetwork */,
 				74769A5F2057D34200F2A1CB /* Kits */,
 				74769A1F2056516900F2A1CB /* Config */,
 				74769A202056516900F2A1CB /* Helper */,
@@ -222,6 +245,48 @@
 			path = PPTmall;
 			sourceTree = "<group>";
 		};
+		74E37A5A20A000D3000F6749 /* APINetwork */ = {
+			isa = PBXGroup;
+			children = (
+				74E37A5B20A000D3000F6749 /* Core */,
+				74E37A6220A000D3000F6749 /* Test */,
+				74E37A6720A000D3000F6749 /* Key */,
+			);
+			path = APINetwork;
+			sourceTree = "<group>";
+		};
+		74E37A5B20A000D3000F6749 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				74E37A5C20A000D3000F6749 /* APINetworkConfig.swift */,
+				74E37A5D20A000D3000F6749 /* APINetwork+Alamofire.swift */,
+				74E37A5E20A000D3000F6749 /* APINetworkAgent.swift */,
+				74E37A5F20A000D3000F6749 /* APINetworkRequest.swift */,
+				74E37A6020A000D3000F6749 /* APINetworkUtils.swift */,
+				74E37A6120A000D3000F6749 /* APINetworkBaseRequest.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		74E37A6220A000D3000F6749 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				74E37A6320A000D3000F6749 /* APILoginVerifyCode.swift */,
+				74E37A6420A000D3000F6749 /* TestModel.swift */,
+				74E37A6520A000D3000F6749 /* APITest.swift */,
+				74E37A6620A000D3000F6749 /* APITestPost.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		74E37A6720A000D3000F6749 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				74E37A6820A000D3000F6749 /* KEYConsts.swift */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,13 +384,17 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PPTmall/Pods-PPTmall-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,19 +424,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E37A6D20A000D3000F6749 /* APINetworkUtils.swift in Sources */,
 				74769A6D2057D34200F2A1CB /* BaseViewController.swift in Sources */,
 				74769A7C2057D8EE00F2A1CB /* PPLabel+IB.swift in Sources */,
+				74E37A7320A000D3000F6749 /* KEYConsts.swift in Sources */,
+				74E37A7020A000D3000F6749 /* TestModel.swift in Sources */,
 				74769A7D2057D8EE00F2A1CB /* PPTextField+IB.swift in Sources */,
 				74769A7F2057D8EE00F2A1CB /* PPView+IB.swift in Sources */,
+				74E37A6B20A000D3000F6749 /* APINetworkAgent.swift in Sources */,
+				74E37A6A20A000D3000F6749 /* APINetwork+Alamofire.swift in Sources */,
 				74769A7E2057D8EE00F2A1CB /* PPTextView+IB.swift in Sources */,
+				74E37A6C20A000D3000F6749 /* APINetworkRequest.swift in Sources */,
 				74B63307205623A400C71EFA /* ViewController.swift in Sources */,
 				74B63305205623A400C71EFA /* AppDelegate.swift in Sources */,
 				74769A2B205679FA00F2A1CB /* PPConsts.swift in Sources */,
 				74769A282056619A00F2A1CB /* PPConfig.swift in Sources */,
+				74E37A6920A000D3000F6749 /* APINetworkConfig.swift in Sources */,
 				74769A822057D92400F2A1CB /* UIView+Ext.swift in Sources */,
 				74769A6E2057D34200F2A1CB /* Optional+Ext.swift in Sources */,
 				74769A7B2057D8EE00F2A1CB /* PPButton+IB.swift in Sources */,
+				74E37A7120A000D3000F6749 /* APITest.swift in Sources */,
 				74769A742057D34200F2A1CB /* Utils.swift in Sources */,
+				74E37A7220A000D3000F6749 /* APITestPost.swift in Sources */,
+				74E37A6E20A000D3000F6749 /* APINetworkBaseRequest.swift in Sources */,
+				74E37A6F20A000D3000F6749 /* APILoginVerifyCode.swift in Sources */,
 				7445FFB8205A62E900BCE5CF /* PPUIConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

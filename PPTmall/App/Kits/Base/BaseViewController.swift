@@ -13,6 +13,7 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         printX()
+        printX("测试日志输出")
     }
 
     override func didReceiveMemoryWarning() {
